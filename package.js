@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'nicolaslopezj:orion-admin-only-bootstrap',
-  summary: 'Load boostrap and fontawesome only in the admin',
+  name: 'specik:orionjs-admin-materialize',
+  summary: 'Load Materialize only in the OrionJS admin.',
   version: '1.0.0',
-  git: 'https://github.com/nicolaslopezj/orion-admin-only-bootstrap'
+  git: 'https://github.com/specik/orionjs-admin-materialize'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use(['meteor-platform', 'orionjs:bootstrap@1.2.1']);
-  api.addFiles(['init.js', 'templates.html'], 'client');
+  api.use(['meteor-platform', 'orionjs:materialize@1.4.0']);
+  api.addFiles(['init.js', 'materialize.min.js', 'templates.html'], 'client');
 });

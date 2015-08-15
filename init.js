@@ -1,2 +1,2 @@
-ReactiveTemplates.set('layout', 'onlyBootstrap_layout');
-ReactiveTemplates.set('outAdminLayout', 'onlyBootstrap_outAdmin');
+ReactiveTemplates.set('layout', 'onlyMaterialize_layout');
+ReactiveTemplates.set('outAdminLayout', 'onlyMaterialize_outAdmin');
